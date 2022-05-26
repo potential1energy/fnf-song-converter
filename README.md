@@ -3,6 +3,6 @@ Song converter for my fnf project
 
 To use just put the .json song file in the input folder and run the project with run.bat (only works on windows for now)
 
-then type the file name with the .json at the and and press enter
+then type the file name without the .json at the end and press enter
 
-the output.txt file will have the converted song file to use with my project :)
+Then in the output folder will be your converted song file to use with my project :)
