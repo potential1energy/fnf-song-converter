@@ -4,9 +4,9 @@ print('filename')
 
 filename = io.read()
 
-local outputfile = io.open('./output.txt', 'w')
+local outputfile = io.open('./output/'..filename..'.txt', 'w')
 
-local file = io.open('./input/'..filename, 'r')
+local file = io.open('./input/'..filename..'.json', 'r')
 
 local song = json.parse(file:read('*a'))
 
